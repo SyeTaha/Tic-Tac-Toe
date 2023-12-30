@@ -215,7 +215,7 @@ int main() {
                 DrawText("It's a draw!", 200, 260, 40, RED);
             }
             else {
-                DrawText(winner == 1 ? "Player X wins!" : "Player O wins!", 160, 260, 40, RED);
+                DrawText(winner == 1 ? "Player X wins!" : "Computer Wins!", 160, 260, 40, RED);
             }
         }
         DrawText("Press 'R' to Restart", 20, 0, 10, WHITE);
